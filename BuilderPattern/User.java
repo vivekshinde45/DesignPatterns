@@ -31,6 +31,10 @@ public class User {
 
         }
 
+        public static UserBuilder getUserBuilder() {
+            return new UserBuilder();
+        }
+
         public UserBuilder setUserId(Integer userId) {
             this.userId = userId;
             return this;

@@ -30,7 +30,14 @@ public class Main {
                 .setFirstName("hi")
                 .build();
 
+        User user3 = User.UserBuilder.getUserBuilder()
+                .setUserId(3)
+                .setFirstName("Shivam")
+                .setEmailId("viv@mail.com")
+                .build();
+
         System.out.println(user.toString());
         System.out.println(user2.toString());
+        System.out.println(user3.toString());
     }
 }
